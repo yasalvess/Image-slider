@@ -12,11 +12,11 @@ var TrandingSlider = new Swiper('.tranding-slider',
         modifier: 2.5,
     },
     pagination: {
-        el: '.swiper-button-next',
+        el: '.swiper-pagination',
         clickable: true,
     },
     navigation:{
-        nextEl: '.swiper-buutton-next',
-        prevEl: '.swiper-button-prev'
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
     }
-})
+});
